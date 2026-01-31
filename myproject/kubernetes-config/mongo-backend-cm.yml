@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-cm
+data:
+  MONGO_CONN_STR: mongodb://mongo-db-svc:27017/devops_project?authSource=admin
+  USE_DB_AUTH: "true"
+  REACT_APP_BACKEND_URL: http://backend-svc:3500/api/tasks

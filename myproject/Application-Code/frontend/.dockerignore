@@ -1,0 +1,8 @@
+# directory used by npm
+node_modules
+
+# git data
+.git
+
+# Docker data
+Dockerfile
