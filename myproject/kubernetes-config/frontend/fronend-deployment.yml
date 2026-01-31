@@ -18,7 +18,7 @@ spec:
       - name: env-secret
       containers:
       - name: frontend-containers
-        image: 759316875749.dkr.ecr.us-east-2.amazonaws.com/frontend/react:5.0
+        image: 759316875749.dkr.ecr.us-east-2.amazonaws.com/frontend/react:07
         imagePullPolicy: Always
         ports:
         - containerPort: 80
